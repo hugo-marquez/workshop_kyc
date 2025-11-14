@@ -39,7 +39,7 @@ st.dataframe(data)
 st.download_button(
     label="Descargar datos",
     data=data.to_csv(index=False).encode("utf-8"),
-    file_name="data_transformed.csv",
+    file_name="data.csv",
     mime="text/csv",
 )
 
